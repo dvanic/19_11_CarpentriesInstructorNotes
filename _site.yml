@@ -3,26 +3,26 @@ output_dir: "docs"
 navbar:  
   title: "Home"
   left:
-    - text: "1Welcome"
-      href: 01welcome.html
-    - text: "3ExpertiseInstruction "
-      href: 03expertise.html
-    - text: "6Feedback "
-      href: 06feedback.html
-    - text: "9Mindset"
-      href: 09mindset.html
-    - text: "12WrapUpHW"
-      href: 12wrapuphw.html
-    - text: "14LiveCode1"
-      href: 14livecodingskill.html
-    - text: "17LiveCode2"
-      href: 17morelivecoding.html
-    - text: "20Checkout"
-      href: 20checkout.html
-    - text: "23WkspIntros"
-      href: 23wkspintros.html
-    - text: "25Wup"
-      href: 25wrapup.html
+    - text: "1"
+      href: welcome_01.html
+    - text: "3"
+      href: expertise_03.html
+    - text: "6"
+      href: feedback_06.html
+    - text: "9"
+      href: mindset_09.html
+    - text: "12"
+      href: wrapuphw_12.html
+    - text: "14"
+      href: livecodingskill_14.html
+    - text: "17"
+      href: morelivecoding_17.html
+    - text: "20"
+      href: checkout_20.html
+    - text: "23"
+      href: wkspintros_23.html
+    - text: "25"
+      href: wrapup_25.html
 output:
   html_document:
     theme: cosmo
