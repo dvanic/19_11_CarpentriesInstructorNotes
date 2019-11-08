@@ -19,6 +19,8 @@ Those who complete the two full days and some short follow-up exercises/activiti
 
 ## Active learning
 
+Learners who actively engage with course materials will end up retaining it for much longer than they would have otherwise, and they will be better able to apply their knowledge broadly. - _Waldrop, Nature 2015_
+
 [Active learning examples](https://www.everettcc.edu/files/administration/institutional-effectiveness/institutional-research/outcomeassess-active-learning.pdf){:target="_blank"}
 
 ## Concept maps
@@ -28,8 +30,21 @@ emphasis on relationships between concepts, and multiple parents per node
 ### Activity read
 [Concept maps vs mind maps characteristics](https://www.nngroup.com/articles/cognitive-mind-concept/) and [video](https://www.nngroup.com/videos/visual-mapping-strategies/)
 
-### Activity 1
-- In the Etherpad, write down your name, the best class you ever took (or one class from your top ten, if you can’t decide), and what made it so great. This exercise should take about 2 minutes.
+### Exercise 
+
+10 min. Draw a concept map of your topic of interest, start with a question 
+Include 7 (+ - 2) concepts
+Include relationships as action verbs between these concepts
+Arrange it in a hierarchical structure with the key concepts on top.
+
+### Exercise 
+
+8 min. In a group of 3 exchange concept maps. Do not explain the map.
+- Write one thing you are confused/not sure about the map
+- Write one thing you like/it is clear about the map 
+- Each person will give and receive two feedbacks: Positive and Negative on content 
+
+
 
 ## Guided practice
 
