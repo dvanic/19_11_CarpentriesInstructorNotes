@@ -1,6 +1,5 @@
 # Notes for instructor Training
 
-Darya 
-Paula
+What is in this repo?
 
-Written in Rmd, as an Rproject and render as html from docs.
+Darya and Paula made some notes to teach instructor training. These notes are an Rproject, each episode is written in a Rmd file which is then rendered as html from the docs folder.
