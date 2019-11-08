@@ -17,13 +17,34 @@ What we won’t be learning:
 
 Those who complete the two full days and some short follow-up exercises/activities online will be certified to teach Carpentry workshops.
 
+## Active learning
+
+[Active learning examples](https://www.everettcc.edu/files/administration/institutional-effectiveness/institutional-research/outcomeassess-active-learning.pdf){:target="_blank"}
+
+## Concept maps
+
+emphasis on relationships between concepts, and multiple parents per node
+
+### Activity read
+[Concept maps vs mind maps characteristics](https://www.nngroup.com/articles/cognitive-mind-concept/) and [video](https://www.nngroup.com/videos/visual-mapping-strategies/)
 
 ### Activity 1
 - In the Etherpad, write down your name, the best class you ever took (or one class from your top ten, if you can’t decide), and what made it so great. This exercise should take about 2 minutes.
 
+## Guided practice
 
-### (Alternative) Activity 1 (while you wait?) - Something Surprising
+[Coding exercises](http://third-bit.com/2017/10/16/exercise-types.html) from Greg Wilson 
 
-- Find someone who shares something surprising with you (e.g. your pet has the same name, or you both brush your teeth in the shower). Put your “surprise” similarity into the Etherpad when you come back from break and vote on the most surprising.
+### (Alternative) Activity 
+
+Check the kinds of exercises and list which ones are represented in the previous example.
+
+_Find any empty files starting from the current directory and looking in its subfolders._
+
+  `find -type f . -empty
+  find -r . -type f -empty
+  find . -type -empty
+  find . -type f -empty`
+
 
 

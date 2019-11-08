@@ -1,0 +1,88 @@
+---
+title: "Building Skills"
+output:
+  html_document:
+    toc: true
+---
+
+# We’ll now get started with a discussion of how learning works
+
+Learning results from what the student does and thinks. -  Herbert A. Simon
+
+"Learning as a  _process_  that leads to _change_,  which  occurs  as  a  result  of  _experience_ and  increases  the  potential for improved performance and future learning (adapted from  Mayer, 2002).
+
+_ The Carpentries Pedagogical Model_
+
+A critical component of this process is that learners are able to practice what they are learning in real time, get feedback on what they are doing, and then apply those lessons learned to the next step in the learning process. Having learners help each other during the workshops also helps to reinforce concepts taught during the workshops.
+
+* A Carpentries workshop is an interactive event – for learners and instructors. 
+* We give and receive feedback throughout the course of a workshop.
+
+## Adquisition of a Skill
+
+Dreyfuss model of Skill adquisition. This work indicates that through practice and formal instruction, learners acquire skills and advance from Novice to expert.
+
+![personas](https://carpentries.github.io/instructor-training/fig/skill-level.svg)
+
+Novice: someone who doesn’t know what they don’t know, i.e., they don’t yet know what the key ideas in the domain are or how they relate.
+For now, we are primarily concerned with novices.
+
+## Cognitive Development and Mental Models
+
+Mental models are what the person believes about a system. These models are not just based on facts but are instead contructed primarily on the person's previous experiences
+and what they  think they know about the sytem.
+People base their actions according to their mental models.
+When a system doesn't work the way they expect they get confused, and that builds frustration.
+
+
+
+
+Effective learning is facilitated by the creation of a well-founded mental model. A mental model is a collection of concepts and facts, along with the relationships between those concepts, which a person has about a topic.
+
+Mental models get more complex with adquisition of skills.
+![Mental models](https://carpentries.github.io/instructor-training/fig/mental_models.svg)
+
+Most learners coming to Carpentries lessons are novices, and do not have a strong mental model of the concepts we are teaching. Thus, our primary goal is not to teach the syntax of a particular programming language, but to help them construct a working mental model so that they have something to attach facts to. In other words, our goal is to teach people how to think about programming and data management in a way that will allow them to learn more on their own or understand what they might find online.
+
+    Exercise: Your Mental Models: 5 Min
+
+### The Importance of Going Slowly
+
+Goal: healp learners form the right categories and make connections among concepts. We don’t want to overload them with too many unrelated facts, as this will be confusing.
+    
+_ An important practical implication of this latter point is the pace at which we teach._
+
+Learning consists of more than “just” building mental models and adding information to them; 
+- creating linkages between concepts and facts is at least as important. 
+- Explicitly referring back pre-learned concepts when introducing new concepts helps solidify both ideas.
+
+_ Meeting Learners where they are at: teaching relevant and useful skills building an inclusive learning environment, and continually getting (and paying attention to!) feedback from learners._
+
+## How “Knowledge” Gets in the Way 
+
+One important action is to address the misconceptions of broken mental models.
+Misconceptions categories.
+
+- Simple factual errors, such as believing that Sydney is the capital of Australia. These are the easiest to correct.
+- Broken models, such as believing that the probability of 8 is equal to the probablibily of 2 when rolling two dices. We can address these by having learners reason through examples to see contradictions.
+- Fundamental beliefs, such as “the world is only a few thousand years old” or “human beings cannot affect the planet’s climate”. These beliefs are deeply connected to the learner’s social identity and are the hardest to change.
+
+Since the Carpentries workshops are focused on novices, and the building of strong mental models, we’re most interested in the middle category of misconceptions. While teaching, we want to expose learners’ broken models so that we can help them build better ones.
+
+One way of establishing this framework is to have students create "concept maps," an approach pioneered by Novak and Gowin (1984). With this technique, students learn to visualize a group of concepts and their interrelationships. Boxes containing nouns (and sometimes adjectives) are connected to related terms with a series of lines; prepositions or verbs are superimposed on the connecting lines to help clarify the relationship.
+
+## Identifying and Correcting Misconceptions
+
+ Feedback
+
+Formative assessment takes place during teaching and learning. It sounds like a fancy term, but it can be used to describe any interaction or activity that provides feedback to both instructors and learners about learners’ level of understanding of the material. For learners, this feedback can help focus their study efforts. For instructors, it allows them to refocus their instruction to respond to challenges that learners are facing.
+    
+    
+
+### Activity 1
+
+Formative assesstemts 
+https://www.wabisabilearning.com/blog/formative-assessment-examples
+
+### Activity 2
+

@@ -1,0 +1,42 @@
+# Welcome Day 2
+
+## Objectives:
+
+- Review main points we discussed yesterday.
+- Introduce topics we will discuss today.
+  
+## Reviewing goals of the workshop
+
+    
+- be familiar with and understand how to apply research-based teaching principles, especially as they apply to the Carpentries audience.
+- understand the importance of a respectful and inclusive classroom environment; commit to creating such an environment; and be able to identify and implement Carpentries policies and general practices to accomplish this.
+- practice and develop skills in the teaching methods used in Carpentries workshops
+- learn enough about the Carpentries organization to know where to go for help, how to start organizing a workshop, and how to get involved with community activities.
+
+
+
+Yesterday we focused on general aspects of educational psychology and pedagogy and how to create a positive classroom as environment. With that we addressed the first two goals. We also started with practicing teaching and providing opportunities to improve with teaching by giving and receiving feedback. 
+
+Today, we continue developing skills we discussed yesterday that help improve our teaching: reflective practice and providing (and receiving!) constructive feedback.
+Reinforcing one of the carpentries teaching practices: participatory live coding.
+Finally, we will conclude our training with a discussion about workshop logistics that will help you in preparing to teach your first workshop and become involved in the Carpentries community.
+  
+
+### Exercise
+
+Yesterday we asked you to read some resources about the logistics of teaching and running Carpentries workshops. Please add your questions about logistics and preparation to the Etherpad. We will answer these questions in the Etherpad during your work time and will return to this list later today.
+  
+This activity should take about 5 minutes.
+  
+
+    Keypoints:
+
+    - Instructors guide learners to construct the proper big picture (accurate mental model) of the topic rather than focus on details.
+
+    - Instructors rely on frequent feedback from learners to monitor their own presentation of the material.
+
+    - Instructors introduce a few concepts at a time to avoid cognitive overload.
+
+    - The best way to motivate learners? Show them how to do something they can immediately put to use and be enthusiastic about it.
+
+    - Teaching is a learned skill.
