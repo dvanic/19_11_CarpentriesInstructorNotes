@@ -4,6 +4,21 @@
 
 - Review main points we discussed yesterday.
 - Introduce topics we will discuss today.
+
+## Keypoints
+
+    Keypoints:
+
+    - Instructors guide learners to construct the proper big picture (accurate mental model) of the topic rather than focus on details.
+
+    - Instructors rely on frequent feedback from learners to monitor their own presentation of the material.
+
+    - Instructors introduce a few concepts at a time to avoid cognitive overload.
+
+    - The best way to motivate learners? Show them how to do something they can immediately put to use and be enthusiastic about it.
+
+    - Teaching is a learned skill.
+
   
 ## Reviewing goals of the workshop
 
@@ -29,14 +44,3 @@ Yesterday we asked you to read some resources about the logistics of teaching an
 This activity should take about 5 minutes.
   
 
-    Keypoints:
-
-    - Instructors guide learners to construct the proper big picture (accurate mental model) of the topic rather than focus on details.
-
-    - Instructors rely on frequent feedback from learners to monitor their own presentation of the material.
-
-    - Instructors introduce a few concepts at a time to avoid cognitive overload.
-
-    - The best way to motivate learners? Show them how to do something they can immediately put to use and be enthusiastic about it.
-
-    - Teaching is a learned skill.

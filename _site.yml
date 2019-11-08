@@ -9,20 +9,34 @@ navbar:
       href: building_skills_02.html
     - text: "3"
       href: expertise_03.html
+    - text: "5"
+      href: memory_05.html
     - text: "6"
       href: feedback_06.html
+    - text: "8"
+      href: motivation_08.html      
     - text: "9"
       href: mindset_09.html
     - text: "12"
       href: wrapuphw_12.html
+    - text: "13"
+      href: welcome_13.html
     - text: "14"
       href: livecodingskill_14.html
+    - text: "15"
+      href: preparingtoteach_15.html
     - text: "17"
       href: morelivecoding_17.html
+    - text: "18"
+      href: diverseclass_18.html      
     - text: "20"
       href: checkout_20.html
+    - text: "21"
+      href: carpentries_21.html      
     - text: "23"
       href: wkspintros_23.html
+    - text: "24"
+      href: together_24.html
     - text: "25"
       href: wrapup_25.html
 output:

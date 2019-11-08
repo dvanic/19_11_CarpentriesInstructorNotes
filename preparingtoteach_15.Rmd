@@ -1,0 +1,52 @@
+# Preparing to Teach
+
+## Who are we teaching? - Learners profiles
+
+Example:
+
+João is an agricultural engineer doing his masters in soil physics. His programming experience is a first year programming course using C. He was never able to use this low-level programming in his activities, and never programmed after the first year.
+
+His work consists of evaluating physical properties of soil samples from different conditions. Some of the soil properties are measured by an automated device that sends logs in a text format to his machine. João has to open each file in Excel, crop the first and last quarters of data values, and calculate an average.
+
+Software Carpentry will show João how to write shell scripts to count the lines and crop the right range for each file, and how to use R to read these files and calculate the required statistics. It will also show him how to put his programs and files under version control so that he can re-run analyses and figure out which results may have been affected by changes.
+
+### Exercise
+10 min. Read [Software Carpentry’s learner profiles examples](https://software-carpentry.org/audience/). Note that these example profiles contain more information than you will ever know about a learner; this is a creative exercise in imagining (and empathizing with) the whole people behind the faces. Now, sketch out a profile of someone you might expect to attend your first workshop. Who are they, what problems do they face, and how might this training help them? Be as specific as possible.
+Enter your learner profile into the Etherpad.
+
+## Reverse instructional Design
+
+1. Define
+2. Decide
+3. Design
+
+### Learning objectives
+
+Good learning objectives are quite specific about the intended effect of a lesson on its learners. 
+
+[Bloom’s Taxonomy](https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/) is a framework for thinking about learning that breaks progress down into discrete, hierarchical steps.
+
+![Image: Bloom's Taxonomy](https://carpentries.github.io/instructor-training/fig/Blooms.png)
+  
+
+### Exercise: Evaluate Learning Objectives   
+10 min. Check the links to a handful of current [Carpentries lessons for demo](https://carpentries.github.io/instructor-training/demo_lessons/index.html). 
+Select one learning objective from one of those lessons, then complete the following steps to evaluate it.
+  
+- Identify the learning objective verb. How specifically does this verb describe the desired learner outcome?
+- Where does this verb fit on Bloom’s taxonomy? Do you think this is an appropriate level for your learners?
+- In your opinion, does the lesson do an effective job of meeting the stated objective?
+- What would the next level on Bloom’s taxonomy look like for your learners? How might you be able to help them think ahead to the next level without attempting to get them there during your workshop?
+
+### Exercise: (Optional)   
+15 min. With these goals in mind, pair up with a partner to discuss the concept map example that you made yesterday using the verbs from the Bloom's taxonomy pyramid. Give each other specific, actionable feedback that follows our 2x2 framework. Use that feedback to make at least one modification to your map. Discuss in the Etherpad the change you made and how it will help you target your teaching to your learners.
+
+## Formative assessment
+
+### Exercise: Where are your checkpoints?   
+10 Min. Have a look at your lesson again. Choose a learning objective, and identify where in the lesson that objective should reasonably be achieved. How will you know that that objective has been met for all learners? Will this be clear to them?
+  
+Make a plan for where in your lesson you will use different types of formative assessment to help everyone in the room monitor their progress. Keep in mind that formative assessment can take many forms, including multiple choice questions, faded examples, spontaneous questions and calls for sticky notes. Write some notes or thoughts about this process in the Etherpad for discussion.
+
+
+
