@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>preparingtoteach_15.utf8.md</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="welcome_01.html">1</a>
+</li>
+<li>
+  <a href="building_skills_02.html">2</a>
+</li>
+<li>
+  <a href="expertise_03.html">3</a>
+</li>
+<li>
+  <a href="memory_05.html">5</a>
+</li>
+<li>
+  <a href="feedback_06.html">6</a>
+</li>
+<li>
+  <a href="motivation_08.html">8</a>
+</li>
+<li>
+  <a href="mindset_09.html">9</a>
+</li>
+<li>
+  <a href="wrapuphw_12.html">12</a>
+</li>
+<li>
+  <a href="welcome_13.html">13</a>
+</li>
+<li>
+  <a href="livecodingskill_14.html">14</a>
+</li>
+<li>
+  <a href="preparingtoteach_15.html">15</a>
+</li>
+<li>
+  <a href="morelivecoding_17.html">17</a>
+</li>
+<li>
+  <a href="diverseclass_18.html">18</a>
+</li>
+<li>
+  <a href="checkout_20.html">20</a>
+</li>
+<li>
+  <a href="carpentries_21.html">21</a>
+</li>
+<li>
+  <a href="wkspintros_23.html">23</a>
+</li>
+<li>
+  <a href="together_24.html">24</a>
+</li>
+<li>
+  <a href="wrapup_25.html">25</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="preparing-to-teach" class="section level1">
+<h1>Preparing to Teach</h1>
+<div id="who-are-we-teaching---learners-profiles" class="section level2">
+<h2>Who are we teaching? - Learners profiles</h2>
+<p>Example:</p>
+<p>João is an agricultural engineer doing his masters in soil physics. His programming experience is a first year programming course using C. He was never able to use this low-level programming in his activities, and never programmed after the first year.</p>
+<p>His work consists of evaluating physical properties of soil samples from different conditions. Some of the soil properties are measured by an automated device that sends logs in a text format to his machine. João has to open each file in Excel, crop the first and last quarters of data values, and calculate an average.</p>
+<p>Software Carpentry will show João how to write shell scripts to count the lines and crop the right range for each file, and how to use R to read these files and calculate the required statistics. It will also show him how to put his programs and files under version control so that he can re-run analyses and figure out which results may have been affected by changes.</p>
+<div id="exercise" class="section level3">
+<h3>Exercise</h3>
+<p>10 min. Read <a href="https://software-carpentry.org/audience/">Software Carpentry’s learner profiles examples</a>. Note that these example profiles contain more information than you will ever know about a learner; this is a creative exercise in imagining (and empathizing with) the whole people behind the faces. Now, sketch out a profile of someone you might expect to attend your first workshop. Who are they, what problems do they face, and how might this training help them? Be as specific as possible. Enter your learner profile into the Etherpad.</p>
+</div>
+</div>
+<div id="reverse-instructional-design" class="section level2">
+<h2>Reverse instructional Design</h2>
+<ol style="list-style-type: decimal">
+<li>Define</li>
+<li>Decide</li>
+<li>Design</li>
+</ol>
+<div id="learning-objectives" class="section level3">
+<h3>Learning objectives</h3>
+<p>Good learning objectives are quite specific about the intended effect of a lesson on its learners.</p>
+<p><a href="https://cft.vanderbilt.edu/guides-sub-pages/blooms-taxonomy/">Bloom’s Taxonomy</a> is a framework for thinking about learning that breaks progress down into discrete, hierarchical steps.</p>
+<div class="figure">
+<img src="https://carpentries.github.io/instructor-training/fig/Blooms.png" alt="" />
+<p class="caption">Image: Bloom’s Taxonomy</p>
+</div>
+</div>
+<div id="exercise-evaluate-learning-objectives" class="section level3">
+<h3>Exercise: Evaluate Learning Objectives</h3>
+<p>10 min. Check the links to a handful of current <a href="https://carpentries.github.io/instructor-training/demo_lessons/index.html">Carpentries lessons for demo</a>. Select one learning objective from one of those lessons, then complete the following steps to evaluate it.</p>
+<ul>
+<li>Identify the learning objective verb. How specifically does this verb describe the desired learner outcome?</li>
+<li>Where does this verb fit on Bloom’s taxonomy? Do you think this is an appropriate level for your learners?</li>
+<li>In your opinion, does the lesson do an effective job of meeting the stated objective?</li>
+<li>What would the next level on Bloom’s taxonomy look like for your learners? How might you be able to help them think ahead to the next level without attempting to get them there during your workshop?</li>
+</ul>
+</div>
+<div id="exercise-optional" class="section level3">
+<h3>Exercise: (Optional)</h3>
+<p>15 min. With these goals in mind, pair up with a partner to discuss the concept map example that you made yesterday using the verbs from the Bloom’s taxonomy pyramid. Give each other specific, actionable feedback that follows our 2x2 framework. Use that feedback to make at least one modification to your map. Discuss in the Etherpad the change you made and how it will help you target your teaching to your learners.</p>
+</div>
+</div>
+<div id="formative-assessment" class="section level2">
+<h2>Formative assessment</h2>
+<div id="exercise-where-are-your-checkpoints" class="section level3">
+<h3>Exercise: Where are your checkpoints?</h3>
+<p>10 Min. Have a look at your lesson again. Choose a learning objective, and identify where in the lesson that objective should reasonably be achieved. How will you know that that objective has been met for all learners? Will this be clear to them?</p>
+<p>Make a plan for where in your lesson you will use different types of formative assessment to help everyone in the room monitor their progress. Keep in mind that formative assessment can take many forms, including multiple choice questions, faded examples, spontaneous questions and calls for sticky notes. Write some notes or thoughts about this process in the Etherpad for discussion.</p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
