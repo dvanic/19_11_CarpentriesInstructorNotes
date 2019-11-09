@@ -1,0 +1,48 @@
+## Building Skill With Feedback - 20 min
+
+1. How can I get feedback from learners?
+2. How can I use this feedback to improve my teaching?
+
+
+ Types of assessment:
+ 
+ - summative
+ - formative
+ 
+
+We use formative assessment of learners during workshops to help track learners’ progress and adjust our approach to teaching the content as needed. But formative assessment isn’t just for learners. As we’ll discuss in more detail later, teaching is also a skill that is improved through regular practice and feedback. We gather feedback from our learners at multiple points in the workshop and in different forms.
+
+
+Three ways to get feedback:
+
+1. Surveys
+2. Minute cards
+3. One up, one down
+
+Exercise - 5 min - look at pre/post workshop survey. How are they useful?
+
+### Minute cards
+
+Before each lunch break and at the end of the first day, we use sticky notes as minute cards to get anonymous feedback from learners. Learners write one positive thing on their blue sticky note, and one negative thing on their yellow one. Instructors can change the prompt to elicit different types of feedback at each break.
+
+Example “positive” prompts:
+
+    What is the most important thing you learned today.
+    What new skill are you most excited about using?
+
+Example “negative” prompts:
+
+    Write down one thing that is confusing and you’d like clarification on.
+    What is one specific question you have about the material?
+
+### One-Up, One-Down
+
+In addition to minute cards, we also ask learners to give us feedback at the end of each day using a technique called “one up, one down”. The instructor asks the learners to alternately give one positive and one negative point about the day, without repeating anything that has already been said. This requirement forces people to say things they otherwise might not: once all the “safe” feedback has been given, participants will start saying what they really think. The instructor writes down the feedback in the Etherpad or a text editor, but does not comment on the feedback while collecting it. The instructors then discuss this feedback and how they plan to act on it. Like with minute cards, be explicit about how you’re responding to learner feedback.
+
+Digitally, you can use padlet to solicit this kind of feedback...
+
+### Callout: Be Explicit   
+Learners are more likely to give useful feedback if they feel that their feedback is being taken seriously. Spending a few minutes talking about the feedback you got and being explicit about what changes you’re making in light of that feedback will encourage learners to continue to give informative feedback throughout the workshop.
+
+### Exercise: Give Us Feedback   
+Write one thing you learned this morning that you found useful on your blue sticky note, and one question you have about the material on the yellow.  Do not put your name on the notes: this is meant to be anonymous feedback.  Add your notes to the pile by the door as you leave for lunch.
