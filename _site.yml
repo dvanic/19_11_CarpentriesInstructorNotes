@@ -8,7 +8,7 @@ navbar:
     - text: "2"
       href: building_skills_02.html
     - text: "3"
-      href: expertise_03.html
+      href: expertise_03.html 
     - text: "6"
       href: feedback_06.html
     - text: "9"

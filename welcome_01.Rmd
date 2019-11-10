@@ -17,6 +17,38 @@ Darya:
 - Maintainer, Mentor, Trainer, Community organiser
 - Why am I passionate about teaching? Why am I an instructor?
 
+Paula:
+
+### Activity: fill in Etherpad (and explain etherpad here)
+
+1. Have you ever participated in a Software Carpentry, Data Carpentry, or Library Carpentry Workshop?
+
+    - Yes, I have taken a workshop.
+    
+    - Yes, I have been a workshop helper.
+    
+    - Yes, I organized a workshop.
+    
+    - No, but I am familiar with what is taught at a workshop.
+    
+    - No, and I am not familiar with what is taught at a workshop.
+
+  
+2. Which of these most accurately describes your teaching experience?
+
+    - I have been a graduate or undergraduate teaching assistant for a university/college course.
+    
+    - I have not had any teaching experience in the past.
+    
+    - I have taught a seminar, workshop, or other short or informal course.
+    
+    - I have been the instructor-of-record for my own university/college course.
+    
+    - I have taught at the primary or secondary education level.
+    
+    - I have taught informally through outreach programs, hackathons, libraries, laboratory demonstrations, and similar activities.
+
+***
 
 - Software Carpentry, Data Carpentry, and Library Carpentry are official Lesson Programs of the Carpentries.
 

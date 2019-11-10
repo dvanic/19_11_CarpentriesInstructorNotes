@@ -26,6 +26,10 @@ Another feature of expertise that has important consequences for teaching is the
 - Mathematics: Thinking of things algebraically vs geometrically.
 - Navigation: Switching among different routes between two locations.
 
+## Expert blind spots
+
+- give driving example
+
 ## Demotivating language
 
 Make a demotivating ML/bioinformatics statement. (ask who's a bioinformatician?)
