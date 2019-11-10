@@ -1,0 +1,71 @@
+# Expertise and Instruction - 45 min
+
+1. What type of instructor is best for novices?
+2. 
+
+## Excercise 1: What is an expert? - 10 min
+
+1. Name someone that you think is an expert (doesn’t matter what they’re an expert in). As an expert, what makes them special or different from other people?
+2. What is something that you’re an expert in? How does your experience when you’re acting as an expert differ from when you’re not an expert?
+
+
+Problem: experts have more connections among pieces of knowledge; more “short-cuts”, if you will.
+
+Because your learners’ mental models will likely be less densely connected than your own, a conclusion that seems obvious to you will not seem that way to your learners. It’s important to explain what you’re doing step-by-step, and how each step leads to the next one.
+
+Another feature of expertise that has important consequences for teaching is the ability of experts to make use of `fluid representations`. 
+
+
+## Examples of Fluid Representations  - 7 min (skip if time)
+
+- Programming: Referring to an R object like abcde as both “character vectors” and “strings”.
+- Programming: Switching among df[,1], df[,'foo'], and df$foo notation when talking about columns in a data.frame.
+- Biology: Switching between common species names and Latin names (e.g. “mouse” vs “Mus musculus”).
+- Biology: Using both three letter and one letter amino acid codes interchangeably (e.g. Lys = K = Lysine).
+- Chemistry: Switching between “Reference material” and “Standard”
+- Mathematics: Thinking of things algebraically vs geometrically.
+- Navigation: Switching among different routes between two locations.
+
+## Expert blind spots
+
+- give driving example
+
+## Demotivating language
+
+Make a demotivating ML/bioinformatics statement. (ask who's a bioinformatician?)
+
+This gives learners the very clear signal that the instructor thinks their problem is trivial and that they therefore must be stupid.
+
+## Key exercise: 10 minutes
+- What other words or phrases or behaviors can have the effect of demotivating learners? What alternatives can we use to express this meaning in a positive and motivational way?
+In the Etherpad, make a list of demotivating words/phrases and alternatives?  
+
+
+## Formal answer:
+Courtney Seiter lists 10 words and phrases that can change a conversation: if, could, yes, together, thank you, choose to, and, because, willing, and the person’s name. These are motivating words and phrases that can shift mindsets. Jason Fried lists several dirty four-letter words: need, must, can’t, easy, just, only, and fast, as well as examples of how they are used to demotivate. Statements like:
+
+-  “We really need it.”
+- “If we don’t we can’t …”
+- “Wouldn’t it be easy if we just did it like that?”
+- “Can you try it real fast?” can be perceived as dismissive or demeaning or worse.
+
+
+With practice, we can change the way we speak to avoid this type of demotivating language and replace it with more positive and motivating word choices.
+
+Another language choice that can have very positive effects on learner mindset is to ask “What questions do people have?” rather than “Does anyone have any questions?”
+
+Minute cards, with "what was the most confusing thing about this session?" also help.
+
+## Extra (me): what to do if you screwed up (because you will)
+
+1. Apologise
+2. Acknowledge how hard
+3. Discuss step by step
+
+## You are not your learners
+
+1. Scientists want to learn to code for the sake of their work
+2. If someone says driving is easy, you feel bad when it's not. Acknowledge that things you have skills in are an expertise, and work with that. Don't say things are easy. 
+
+
+It’s also why installing and configuring software is a much bigger problem for us than experienced programmers like to acknowledge. It isn’t just the time we lose at the start of workshops as we try to get a Unix shell working on Windows, or set up a version control client on some idiosyncratic Linux distribution, or ask people to download and unzip files. It isn’t even the unfairness of asking learners to debug things that depend on precisely the knowledge they have come to learn, but which they don’t yet have. The real problem is that every such failure reinforces the belief that computing is hard, and that they’d have a better chance of making next Thursday’s conference submission deadline if they kept doing things the way they always have. For these reasons, we have adopted a “teach most immediately useful first” approach. We’ll talk much more about this when we discuss motivation.

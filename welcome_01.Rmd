@@ -1,14 +1,71 @@
-# Welcome
+# Welcome - 25 min
 
-Over the last hundred years, researchers have discovered an enormous amount about how people learn and how best to teach them. Unfortunately, much of that knowledge has not yet been translated into classroom practice at the university level.
+### (Alternative) Activity 1 (while you wait?) - Something Surprising
 
-Over the next two days we will - through short bursts of theory and lots of exercises:
+- Find someone who shares something surprising with you (e.g. your pet has the same name, or you both brush your teeth in the shower). Put your “surprise” similarity into the Etherpad when we start and vote on the most surprising (using + signs!).
 
-- Introduce you to evidence-based best-practices of teaching.
-- Teach you how to create a positive environment in your workshops.
-- Provide opportunities for you to practice and build your teaching skills.
-- Help you become understand what it is and integrate into the Carpentries community.
-- Prepare you to use these teaching skills in teaching workshops.
+
+
+### Introductions
+
+Darya: 
+
+- Bioinformatics, Genomics - UQ  
+- Ex biochemist, Russian sob story
+- Data Science Educator and Data Scientist
+- Grad Cert High Ed, Developer, GTA/
+- Maintainer, Mentor, Trainer, Community organiser
+- Why am I passionate about teaching? Why am I an instructor?
+
+Paula:
+
+### Activity: fill in Etherpad (and explain etherpad here)
+
+1. Have you ever participated in a Software Carpentry, Data Carpentry, or Library Carpentry Workshop?
+
+    - Yes, I have taken a workshop.
+    
+    - Yes, I have been a workshop helper.
+    
+    - Yes, I organized a workshop.
+    
+    - No, but I am familiar with what is taught at a workshop.
+    
+    - No, and I am not familiar with what is taught at a workshop.
+
+  
+2. Which of these most accurately describes your teaching experience?
+
+    - I have been a graduate or undergraduate teaching assistant for a university/college course.
+    
+    - I have not had any teaching experience in the past.
+    
+    - I have taught a seminar, workshop, or other short or informal course.
+    
+    - I have been the instructor-of-record for my own university/college course.
+    
+    - I have taught at the primary or secondary education level.
+    
+    - I have taught informally through outreach programs, hackathons, libraries, laboratory demonstrations, and similar activities.
+
+***
+
+- Software Carpentry, Data Carpentry, and Library Carpentry are official Lesson Programs of the Carpentries.
+
+- Software Carpentry focuses on helping researchers develop foundational computational skills
+- Data Carpentry focuses on helping researchers work effectively with their data through its lifecycle
+- Library Carpentry focuses on teaching data skills to people working in library- and information-related roles.
+
+## The expectation of instructors (and what we'll try to help with)
+
+
+- "How Learning Works": understand how to apply research-based teaching principles as they apply to the Carpentries audience.
+- practice and develop skills in the teaching methods used in workshops
+- understand the importance of a respectful and inclusive classroom environment; commit to creating such an environment; and be able to identify and implement Carpentries policies and general practices to accomplish this. Mention CoC here. 
+- learn enough about the Carpentries to know where to go for help, how to start organizing a workshop, and how to get involved with community activities.
+
+
+Over the next two days we will - through short bursts of theory and lots of exercises we will work on a lot of these, but:
 
 What we won’t be learning:
 
@@ -17,13 +74,18 @@ What we won’t be learning:
 
 Those who complete the two full days and some short follow-up exercises/activities online will be certified to teach Carpentry workshops.
 
+ We welcome questions and dialogue at any point. We’ll be using the Etherpad to help facilitate discussion. Please feel free to ask questions verbally or to put them into the notes or chat box of the Etherpad.
 
 ### Activity 1
 - In the Etherpad, write down your name, the best class you ever took (or one class from your top ten, if you can’t decide), and what made it so great. This exercise should take about 2 minutes.
 
 
-### (Alternative) Activity 1 (while you wait?) - Something Surprising
 
-- Find someone who shares something surprising with you (e.g. your pet has the same name, or you both brush your teeth in the shower). Put your “surprise” similarity into the Etherpad when you come back from break and vote on the most surprising.
+
+
+***
+
+
+
 
 

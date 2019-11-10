@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>livecodingskill_14.utf8.md</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="welcome_01.html">1</a>
+</li>
+<li>
+  <a href="building_skills_02.html">2</a>
+</li>
+<li>
+  <a href="expertise_03.html">3</a>
+</li>
+<li>
+  <a href="feedback_06.html">6</a>
+</li>
+<li>
+  <a href="mindset_09.html">9</a>
+</li>
+<li>
+  <a href="wrapuphw_12.html">12</a>
+</li>
+<li>
+  <a href="livecodingskill_14.html">14</a>
+</li>
+<li>
+  <a href="morelivecoding_17.html">17</a>
+</li>
+<li>
+  <a href="checkout_20.html">20</a>
+</li>
+<li>
+  <a href="wkspintros_23.html">23</a>
+</li>
+<li>
+  <a href="wrapup_25.html">25</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="live-coding-part-1---1-hr-10-min" class="section level2">
+<h2>Live coding part 1 - 1 hr 10 min</h2>
+<ul>
+<li>One of the cornerstones of the Carpentries teaching is live coding: instructors don’t use slides, but work through the lesson material, typing in the code or instructions, with the workshop participants following along</li>
+</ul>
+<p>the instructor is not live coding in a vacuum. Importantly, learners are strongly encouraged to “code-along” with the instructor. We refer to the practice of having the instructor live code and the learners code along as “participatory live coding” or, less formally, ‘code-along sessions’.</p>
+</div>
+<div id="exercise-1" class="section level2">
+<h2>Exercise 1</h2>
+<p>List some advantages and challenges of participatory live coding from both a learner’s and an instructor’s point of view in the Etherpad.</p>
+<p>This discussion should take about 10 minutes.</p>
+</div>
+<div id="some-advantages-are" class="section level2">
+<h2>Some advantages are:</h2>
+<ul>
+<li>Watching a program being written is more compelling than watching someone page through slides that present bits and pieces of the same code.</li>
+<li>It enables instructors to be more responsive to “what if?” questions. Where a slide deck is like a railway track, participatory live coding allows instructors to go off-road and follow their learners’ interests.</li>
+<li>Lateral knowledge transfer: participatory live coding facilitates the transfer of tacit knowledge – people learn more than we realized we were teaching by watching how instructors do things.</li>
+<li>It slows the instructor down: if she has to type in the program as she goes along, she can only go twice as fast as her learners, rather than ten-fold faster as she could with slides.</li>
+<li>Learners get to see instructors’ mistakes and how to diagnose and correct them. Novices are going to spend most of their time doing this, but it’s left out of most textbooks.</li>
+</ul>
+<p>Some challenges are:</p>
+<ul>
+<li>It requires instructors to be able to improvise when things go wrong or when learners have questions not directly addressed in the text of the lesson.</li>
+<li>It can be hard for learners to listen and type at the same time, due to the</li>
+<li>split-attention effect we discussed earlier. This is why it’s very important that instructors first explain what they’re going to do, then say what they are typing as they type it, and then explain what they did again afterwards.</li>
+<li><p>It may take a bit of practice for instructors to get used to thinking aloud while coding in front of an audience.</p>
+<p>Live coding fits well into the practice-feedback model we’ve been discussing - by providing learners with continuous opportunities for practice (every time they type in a line of code) and continuous feedback (their code either works or fails with an error message).</p></li>
+</ul>
+</div>
+<div id="watch-the-demo-videos-exercise" class="section level2">
+<h2>Watch the demo videos exercise</h2>
+</div>
+<div id="after-make-sure-learners-have-highlighted-each-of-these" class="section level2">
+<h2>After, make sure learners have highlighted each of these</h2>
+<p>Top Ten Tips for Participatory Live Coding in a Workshop</p>
+<ol style="list-style-type: decimal">
+<li><p><strong>Stand up and move around the room if possible</strong>. This makes the experience more interactive and less monotonous. Use a microphone if one is available to make it easier for people with hearing difficulties to hear you.</p></li>
+<li><p><strong>Go slowly</strong>. For every command you type, every word of code you write, every menu item or website button you click, say out loud what you are doing while you do it. Then point to the command and its output on the screen and go through it a second time. This slows you down and allows learners to copy what you do, or to catch up. Do not copy-paste code.</p></li>
+<li><p><strong>Mirror your learner’s environment.</strong> Try to create an environment that is as similar as possible to what your learners have to reduce cognitive load. Avoid using keyboard shortcuts.</p></li>
+<li><p><strong>Use your screen wisely.</strong> Use a big font, and maximize the window. A black font on a white background works better than a light font on a dark background. When the bottom of the projector screen is at the same height, or below, the heads of the learners, people in the back won’t be able to see the lower parts. Draw up the bottom of your window(s) to compensate. Pay attention to the lighting (not too dark, no lights directly on/above the presenter’s screen) and if needed, re-position the tables so all learners can see the screen, and helpers can easily reach all learners.</p></li>
+<li><p><strong>Use illustrations to help learners understand and organize the material.</strong> You can also generate the illustrations on the board as you progress through the material. This allows you to build up diagrams, making them increasingly complex in parallel with the material you are teaching. It helps learners understand the material, makes for a more lively workshop and gathers the learners’ attention to you as well.</p></li>
+<li><p><strong>Turn off notifications</strong> on your laptop and phone.</p></li>
+<li><p><strong>Stick to the lesson material.</strong> The core Carpentries lessons are developed collaboratively by many instructors and tried and tested at many workshops. This means they are very streamlined - which is great when you start teaching them for the first time. It may be tempting to deviate from the material because you would like to show a neat trick, or demonstrate some alternative way of doing something. Don’t do this, since there is a fair chance you’ll run into something unexpected that you then have to explain. If you really want to use something outside of the material, try it out thoroughly before the workshop: run through the lesson as you would during the actual teaching and test the effect of your modification. Some instructors use printouts of the lesson material during teaching. Others use a second device (tablet or laptop) when teaching, on which they can view their notes and the Etherpad session. This seems to be more reliable than displaying one virtual desktop while flipping back and forth to another.</p></li>
+<li><p><strong>Leave no learner behind</strong>. Use sticky notes, see below, to gauge learners’ progress and understanding.</p></li>
+<li><p><strong>Embrace mistakes.</strong> No matter how well prepared you are, you will make mistakes. This is OK! Use these opportunities to do error framing and to help your learners learn the art of troubleshooting.</p></li>
+<li><p><strong>Have fun!</strong> It’s OK to use humor and improvisation to liven up the workshop. This becomes easier when you are more familiar with the material, and more relaxed. Start small, even just saying ‘that was fun’ after something worked well is a good start.</p></li>
+</ol>
+</div>
+<div id="sticky-notes" class="section level2">
+<h2>Sticky notes</h2>
+<ul>
+<li>Explain how here</li>
+<li>Mention accessibility issues with red/green (but also - speech!)</li>
+</ul>
+</div>
+<div id="demo-teaching-exercise-1" class="section level2">
+<h2>Demo teaching exercise 1</h2>
+<p>Teach 3 minutes of your chosen lesson episode using live coding to one or two fellow trainees, then swap and watch while the other person(s) live codes for you. (For this exercise, your peers will not “code-along”, but will instead observe and give feedback.)</p>
+<p>Explain in advance to your fellow trainee(s) what you will be teaching and what the learners you teach it to are expected to be familiar with.</p>
+<p>Don’t record this exercise. Give each other feedback using the 2x2 rubric we discussed previously and enter the feedback you received in the Etherpad.</p>
+<p>This exercise should take about 25 minutes</p>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

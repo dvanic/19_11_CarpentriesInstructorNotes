@@ -1,4 +1,7 @@
-# Welcome
+# The Carpentries
+
+
+IF you want to know more, read this article [Software Carpentry: lessons learned by Greg Wilson](https://f1000research.com/articles/3-62/v2)
 
 Over the last hundred years, researchers have discovered an enormous amount about how people learn and how best to teach them. Unfortunately, much of that knowledge has not yet been translated into classroom practice at the university level.
 

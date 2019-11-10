@@ -1,0 +1,45 @@
+## Checkout - 15 min
+
+Walk through steps.
+
+1. Fill out https://amy.carpentries.org/forms/request_training/
+2. 3 key steps (not today)
+
+- (Step 1) Make a contribution to a lesson’s content, exercises, or instructor notes by doing one of the following:- 
+
+- Submit a change (i.e. pull request) to fix an existing issue. (Example good first issues.)
+
+- https://librarycarpentry.org/lessons/
+
+- https://datacarpentry.org/lessons/
+
+- https://software-carpentry.org/lessons/
+
+- See https://github.com/carpentries-incubator as well.
+
+- Proof-read a lesson and add a new issue describing something to be improved.
+
+- Provide substantive feedback on an existing issue or pull request.
+
+
+- (Step 2) Take part in a community discussion with experienced instructors. https://pad.carpentries.org/community-discussions
+
+- (Step 3) Prepare to teach a full Carpentries lesson (i.e. the content of one lesson repository). Then perform a 5-minute live coding demo for that lesson starting at a point chosen by the session lead. 
+
+- Sign up (and instructions) here: https://pad.carpentries.org/teaching-demos
+
+- Starting points and lessons: https://carpentries.github.io/instructor-training/demo_lessons/index.html
+
+- NOTE: You pick lesson, WE pick start!!!
+
+
+All trainees have 3 months (90 days) from the end date of your training to complete checkout. If you need more time, extensions for up to a year may be requested by emailing checkout@carpentries.org.
+
+Lesson contribution is managed within the repository using “issues” and “pull requests”. New problems or suggestions can be introduced as issues, discussed by the community, and addressed via a pull request, which serves as a “request” to make changes, and can also be discussed before changes are merged.
+
+
+## Why get badged?
+
+You get to teach!  While non-badged instructors may also co-teach, every Carpentries branded workshop must have one badged instructor to lead the way.
+
+You get to vote!  

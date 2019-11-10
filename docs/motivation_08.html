@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>motivation_08.utf8.md</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="welcome_01.html">1</a>
+</li>
+<li>
+  <a href="building_skills_02.html">2</a>
+</li>
+<li>
+  <a href="expertise_03.html">3</a>
+</li>
+<li>
+  <a href="memory_05.html">5</a>
+</li>
+<li>
+  <a href="feedback_06.html">6</a>
+</li>
+<li>
+  <a href="motivation_08.html">8</a>
+</li>
+<li>
+  <a href="mindset_09.html">9</a>
+</li>
+<li>
+  <a href="teachingisaskill_11.html">11</a>
+</li>
+<li>
+  <a href="wrapuphw_12.html">12</a>
+</li>
+<li>
+  <a href="welcome_13.html">13</a>
+</li>
+<li>
+  <a href="livecodingskill_14.html">14</a>
+</li>
+<li>
+  <a href="preparingtoteach_15.html">15</a>
+</li>
+<li>
+  <a href="morelivecoding_17.html">17</a>
+</li>
+<li>
+  <a href="diverseclass_18.html">18</a>
+</li>
+<li>
+  <a href="checkout_20.html">20</a>
+</li>
+<li>
+  <a href="carpentries_21.html">21</a>
+</li>
+<li>
+  <a href="wkspintros_23.html">23</a>
+</li>
+<li>
+  <a href="together_24.html">24</a>
+</li>
+<li>
+  <a href="wrapup_25.html">25</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<div id="motivation" class="section level1">
+<h1>Motivation</h1>
+<p>In the morning we covered some educational research and how we can apply it to teaching Carpentries workshops. Part of this afternoon will cover another important aspect of being a Carpentries instructor: fostering a positive learning environment.</p>
+<p>This section discusses typical ways that learners are motivated (and can be demotivated!) and provides practice opportunities for you to become confident in motivating your learners.</p>
+<div id="teach-most-useful-first" class="section level2">
+<h2>Teach Most Useful First</h2>
+<p>Image: What to Teach <a href="https://carpentries.github.io/instructor-training/fig/what-to-teach.png" class="uri">https://carpentries.github.io/instructor-training/fig/what-to-teach.png</a></p>
+<div id="exercise-authentic-tasks-think-pair-share" class="section level3">
+<h3>Exercise: Authentic Tasks: Think, Pair, Share</h3>
+<p>Think about some task you did this week that uses one or more of the skills we teach, (e.g. wrote a function, bulk downloaded data, built a plot in R, forked a repo) and explain how you would use it (or a simplified version of it) as an exercise or example in class. Pair up with your neighbor and decide where this exercise fits on a graph of “short/long time to master” and “low/high usefulness”. In the class Etherpad, share the task and where it fits on the graph. As a group, we will discuss how these relate back to our “teach most immediately useful first” approach.</p>
+<p>This exercise and discussion should take about 10 minutes.</p>
+<p>Other Motivational Strategies</p>
+</div>
+<div id="exercise-strategies-for-motivating-learners" class="section level3">
+<h3>Exercise: Strategies for Motivating Learners</h3>
+<p>How Learning Works by Susan Ambrose, et al., contains this list of evidence-based methods to motivate learners.</p>
+<p>In groups of two or three, pick three of these points and briefly describe in the Etherpad how we can apply these strategies in our workshops.</p>
+<pre><code>Strategies to Establish Value      
+
+Connect the material to learners’ interests.
+
+Provide authentic, real-world tasks.
+
+Show relevance to learners’ current academic lives.
+
+Demonstrate the relevance of higher-level skills to learners’ future professional lives.
+
+Identify and reward what you value.
+
+Show your own passion and enthusiasm for the discipline.
+
+
+
+Strategies to Build Positive Expectations      
+
+Ensure alignment of objectives, assessments, and instructional strategies.
+
+Identify an appropriate level of challenge.
+
+Create assignments that provide an appropriate level of challenge.
+
+Provide early success opportunities.
+
+Articulate your expectations.
+
+Provide rubrics.
+
+Provide targeted feedback.
+
+Be fair.
+
+Educate learners about the ways we explain success and failure.
+
+Describe effective study strategies.
+
+
+
+Strategies for Self-Efficacy      
+
+Provide learners with options and the ability to make choices.
+
+Give learners an opportunity to reflect.</code></pre>
+<p>This exercise and discussion should take about 5 minutes.</p>
+<p>Callout: Provide an Example<br />
+Insert a personal story here about how you establish value in the classroom.</p>
+<p>Or, insert an example story about establishing value, which goes like this:</p>
+<p>“In the SWC Unix “Finding Things” episode, a haiku is used to to teach grep. This is a great didactic tool, but it can be hard for learners to see how it applies to research. After the didactic example, I connect my bioinformatics users with domain-specific examples by showing a list of one-line unix commands consisting of grep, sort, head, and uniq to explore biological sequence data. This emphasizes how they can apply what they learned with haikus to real bioinformatics research problems.”</p>
+</div>
+<div id="exercise-brainstorming-motivational-strategies" class="section level3">
+<h3>Exercise: Brainstorming Motivational Strategies</h3>
+<p>Think back to a computational (or other) course you took in the past, and identify one thing the instructor did that motivated you. Pair up with your neighbor and discuss what motivated you. Share the motivational story in the Etherpad.</p>
+<p>This exercise should take about 5 minutes.</p>
+<p>Callout: Not Just Learners<br />
+What’s missing from this list is strategies to motivate the instructor. As we said in the introduction, learners respond to an instructor’s enthusiasm, and instructors need to care about a topic in order to keep teaching it, particularly when they are volunteers.</p>
+</div>
+<div id="exercise-why-do-you-teach-optional" class="section level3">
+<h3>Exercise: Why Do You Teach? (Optional)</h3>
+<p>We all have a different motivation for teaching, and that is a really good thing! The Carpentries want instructors with diverse backgrounds because you each bring something unique to our community. What motivates you to teach? Write a short explanation of what motivates you to teach. Save this as part of your teaching philosophy for future reference.</p>
+<p>This exercise should take about 5 minutes.</p>
+</div>
+</div>
+<div id="how-not-to-demotivate-your-learners" class="section level2">
+<h2>How Not to Demotivate Your Learners</h2>
+<div id="exercise-brainstorming-demotivational-experiences" class="section level3">
+<h3>Exercise: Brainstorming Demotivational Experiences</h3>
+<p>Think back to a time when you were demotivated as a student (or when you demotivated a student). Pair up with your neighbor and discuss what could have been done differently in the situation to make it not demotivating. Share your story in the Etherpad.</p>
+<p>If time, what themes do you see among the stories? What are positive actions you could take to avoid these?</p>
+<p>This exercise should take about 5 minutes.</p>
+<p>Things You Shouldn’t Do in a Workshop</p>
+<p><a href="https://drawings.jvns.ca/drawings/surprise.png">feign surprise</a></p>
+<p>Systemic and Psychological Demotivators</p>
+</div>
+</div>
+<div id="stereotype-threat" class="section level2">
+<h2>Stereotype Threat</h2>
+<p>Callout: Never Learn Alone<br />
+One way to support at-risk learners of all kinds is to ask people to sign up for workshops in small teams rather than as individuals when possible. If an entire lab group comes, or if attendees are drawn from the same (or closely-related) disciplines, everyone in the room will know in advance that they will be with at least a few people they trust, which increases the chances of them actually coming. Furthermore, if people attend a workshop with their labmates, it’s more likely they will work together to implement what they’ve learned after the workshop has ended.</p>
+<p>Impostor Syndrome Image: XKCD’s take on <a href="https://imgs.xkcd.com/comics/impostor_syndrome.png">imposter syndrome</a></p>
+<div id="exercise-overcoming-imposter-syndrome-optional" class="section level3">
+<h3>Exercise: Overcoming Imposter Syndrome (Optional)</h3>
+<p>Think of a time when learning something was difficult for you, or you made a mistake that seemed silly or embarrassing. Is that task still hard for you? In the Etherpad, describe how you might use this as a motivational story to help your learners overcome their own imposter syndrome.</p>
+<p>This exercise should take about 5 minutes.</p>
+</div>
+</div>
+<div id="accessibility-issues" class="section level2">
+<h2>Accessibility Issues</h2>
+<p>Callout: It Helps Everyone<br />
+Curb cuts (the small sloped ramps joining a sidewalk to the street) were originally created to make it easier for wheelchair users to move around, but proved to be equally helpful to people with strollers and grocery carts. Similarly, steps taken to make lessons more accessible to people with various disabilities also help everyone else. Proper captioning of images, for example, benefits people with no or limited vision by giving screen readers something to say: but it also makes the images more findable by exposing their content to search engines.</p>
+<div id="exercise-learning-about-accessibility" class="section level3">
+<h3>Exercise: Learning about Accessibility</h3>
+<p>The UK Home Office has put together a set of posters of dos and don’ts for making visual and web-based materials more accessible for different populations. Take a look at one of these posters and put one thing you’ve learned in the Etherpad. <a href="https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf" class="uri">https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf</a> Note: There are translations available in a number of languages, including Dutch, French, Spanish, Swedish, Portuguese, German, and Chinese.</p>
+<p>This exercise should take about 5 minutes.</p>
+<p>Callout: Accessibility and PDFs<br />
+The posters above are in PDF format - which itself can sometimes be inaccessible to people who use screen readers. If you know of a similar resource describing accessibility guidelines that would be more accessible than what’s linked above, open an issue on our instructor training curriculum respoistory here: <a href="https://github.com/carpentries/instructor-training/issues" class="uri">https://github.com/carpentries/instructor-training/issues</a></p>
+</div>
+<div id="exercise-what-happens-when-accessibility-is-an-issue-optional" class="section level3">
+<h3>Exercise: What Happens When Accessibility is an Issue? (Optional)</h3>
+<p>Think of a time when you’ve been affected by, or noticed someone else being affected by issues with accessibility. This may have been at a conference you attended where the elevator was out of service, or maybe a class you were taking relied on audio delivery of content. Describe what happened, how it impacted your (or someone else’s) ability to be involved and what could have been done to provide better accessibility in this case.</p>
+<p>This exercise should take about 5 minutes.</p>
+<p>Callout: Every Little Bit Counts<br />
+Looking at people who work with disability and accessibility, it’s easy to be overwhelmed by all the different ways we could make instruction more accessible. Don’t panic. Instead:</p>
+<pre><code>Don’t do everything at once. We don’t ask learners in our workshops to adopt all our best practices or tools in one go, but instead to work things in gradually at whatever rate they can manage. Similarly, try to build in accessibility habits when preparing for workshops by adding something new each time.
+
+Do the easy things first. There are plenty of ways to make workshops more accessible that are both easy and don’t create extra cognitive load for anyone: font choices, general text size, checking in advance that your room is accessible via an elevator or ramp, etc.</code></pre>
+</div>
+</div>
+<div id="inclusivity" class="section level2">
+<h2>Inclusivity</h2>
+<p>Make a positive effort to be inclusive.</p>
+<p>Setting Expectations with the Code of Conduct</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -2,6 +2,10 @@
 
 ## Who are we teaching? - Learners profiles
 
+teaching is a skill!
+
+read this first point [5.1  why teach ?](https://f1000research.com/articles/3-62/v2)
+
 Example:
 
 João is an agricultural engineer doing his masters in soil physics. His programming experience is a first year programming course using C. He was never able to use this low-level programming in his activities, and never programmed after the first year.

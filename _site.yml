@@ -10,13 +10,15 @@ navbar:
     - text: "3"
       href: expertise_03.html
     - text: "5"
-      href: memory_05.html
+      href: memory_05.html 
     - text: "6"
       href: feedback_06.html
     - text: "8"
       href: motivation_08.html      
     - text: "9"
       href: mindset_09.html
+    - text: "11"
+      href: teachingisaskill_11.html
     - text: "12"
       href: wrapuphw_12.html
     - text: "13"

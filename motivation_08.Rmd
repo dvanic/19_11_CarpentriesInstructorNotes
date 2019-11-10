@@ -6,10 +6,182 @@ This section discusses typical ways that learners are motivated (and can be demo
 
 
 
-### Activity 1
 
 
-### (Alternative) Activity 1 (while you wait?) - Something Surprising
+## Teach Most Useful First
+Image: What to Teach https://carpentries.github.io/instructor-training/fig/what-to-teach.png
+  
+
+### Exercise: Authentic Tasks: Think, Pair, Share   
+Think about some task you did this week that uses one or more of the skills we teach, (e.g. wrote a function, bulk downloaded data, built a plot in R, forked a repo) and explain how you would use it (or a simplified version of it) as an exercise or example in class. Pair up with your neighbor and decide where this exercise fits on a graph of “short/long time to master” and “low/high usefulness”. In the class Etherpad, share the task and where it fits on the graph. As a group, we will discuss how these relate back to our “teach most immediately useful first” approach.
+  
+This exercise and discussion should take about 10 minutes.
+  
+Other Motivational Strategies
+  
+
+### Exercise: Strategies for Motivating Learners   
+How Learning Works by Susan Ambrose, et al., contains this list of evidence-based methods to motivate learners.
+  
+In groups of two or three, pick three of these points and briefly describe in the Etherpad how we can apply these strategies in our workshops.
+  
+
+    Strategies to Establish Value      
+
+    Connect the material to learners’ interests.
+
+    Provide authentic, real-world tasks.
+
+    Show relevance to learners’ current academic lives.
+
+    Demonstrate the relevance of higher-level skills to learners’ future professional lives.
+
+    Identify and reward what you value.
+
+    Show your own passion and enthusiasm for the discipline.
+
+        
+
+    Strategies to Build Positive Expectations      
+
+    Ensure alignment of objectives, assessments, and instructional strategies.
+
+    Identify an appropriate level of challenge.
+
+    Create assignments that provide an appropriate level of challenge.
+
+    Provide early success opportunities.
+
+    Articulate your expectations.
+
+    Provide rubrics.
+
+    Provide targeted feedback.
+
+    Be fair.
+
+    Educate learners about the ways we explain success and failure.
+
+    Describe effective study strategies.
+
+        
+
+    Strategies for Self-Efficacy      
+
+    Provide learners with options and the ability to make choices.
+
+    Give learners an opportunity to reflect.
+
+        
+
+  
+This exercise and discussion should take about 5 minutes.
+  
+
+Callout: Provide an Example   
+Insert a personal story here about how you establish value in the classroom.
+  
+Or, insert an example story about establishing value, which goes like this:
+  
+“In the SWC Unix “Finding Things” episode, a haiku is used to to teach grep. This is a great didactic tool, but it can be hard for learners to see how it applies to research. After the didactic example, I connect my 
+bioinformatics users with domain-specific examples by showing a list of one-line unix commands consisting of  grep, sort, head, and uniq to explore biological sequence data. This emphasizes how they can apply
+ what they learned with haikus to real bioinformatics research problems.”
+  
+
+### Exercise: Brainstorming Motivational Strategies   
+Think back to a computational (or other) course you took in the past, and identify one thing the instructor did that motivated you. Pair up with your neighbor and discuss what motivated you. Share the motivational
+ story in the Etherpad.
+  
+This exercise should take about 5 minutes.
+  
+
+Callout: Not Just Learners   
+What’s missing from this list is strategies to motivate the instructor. As we said in the introduction, learners respond to an instructor’s enthusiasm, and instructors need to care about a topic in order to keep teaching it, particularly when they are volunteers.
+  
+
+### Exercise: Why Do You Teach? (Optional)   
+We all have a different motivation for teaching, and that is a really good thing! The Carpentries want instructors with diverse backgrounds because you each bring something unique to our community.
+What motivates you to teach? Write a short explanation of what motivates you to teach. Save this as part of your teaching philosophy for future reference.
+  
+This exercise should take about 5 minutes.
+
+
+## How Not to Demotivate Your Learners
+  
+
+### Exercise: Brainstorming Demotivational Experiences   
+Think back to a time when you were demotivated as a student (or when you demotivated a student). Pair up with your neighbor and discuss what could have been done differently in the situation to make it not demotivating. Share your story in the Etherpad.
+  
+If time, what themes do you see among the stories?  What are positive actions you could take to avoid these?
+  
+This exercise should take about 5 minutes.
+
+
+Things You Shouldn’t Do in a Workshop
+
+[feign surprise](https://drawings.jvns.ca/drawings/surprise.png)
+
+
+Systemic and Psychological Demotivators
+
+
+## Stereotype Threat
+  
+
+Callout: Never Learn Alone   
+One way to support at-risk learners of all kinds is to ask people to sign up for workshops in small teams rather than as individuals when possible. If an entire lab group comes, or if attendees are drawn from the same (or closely-related) disciplines, everyone in the room will know in advance that they will be with at least a few people they trust, which increases the chances of them actually coming. Furthermore, if people attend a workshop with their labmates, it’s more likely they will work together to implement what they’ve learned after the workshop has ended.
+
+
+Impostor Syndrome
+Image: XKCD's take on [imposter syndrome](https://imgs.xkcd.com/comics/impostor_syndrome.png)
+  
+
+### Exercise: Overcoming Imposter Syndrome (Optional)   
+Think of a time when learning something was difficult for you, or you made a mistake that seemed silly or embarrassing. Is that task still hard for you? In the Etherpad, describe how you might use this as a motivational story to help your learners overcome their own imposter syndrome.
+  
+This exercise should take about 5 minutes.
+
+
+## Accessibility Issues
+  
+
+Callout: It Helps Everyone   
+Curb cuts (the small sloped ramps joining a sidewalk to the street) were originally created to make it easier for wheelchair users to move around, but proved to be equally helpful to people with strollers and grocery carts. Similarly, steps taken to make lessons more accessible to people with various disabilities also help everyone else. Proper captioning of images, for example, benefits people with no or limited vision by giving screen readers something to say: but it also makes the images more findable by exposing their content to search engines.
+  
+
+### Exercise: Learning about Accessibility   
+The UK Home Office has put together a set of posters of dos and don’ts for making visual and web-based materials more accessible for different populations. Take a look at one of these posters and put one thing you’ve learned in the Etherpad.
+https://github.com/UKHomeOffice/posters/blob/master/accessibility/dos-donts/posters_en-UK/accessibility-posters-set.pdf
+Note: There are translations available in a number of languages, including Dutch, French, Spanish, Swedish, Portuguese, German, and Chinese.
+  
+This exercise should take about 5 minutes.
+  
+
+Callout: Accessibility and PDFs   
+The posters above are in PDF format - which itself can sometimes be inaccessible to people who use screen readers. If you know of a similar resource describing accessibility guidelines that would be more accessible than what’s linked above, open an issue on our instructor training curriculum respoistory here: https://github.com/carpentries/instructor-training/issues
+  
+
+### Exercise: What Happens When Accessibility is an Issue? (Optional)   
+Think of a time when you’ve been affected by, or noticed someone else being affected by issues with accessibility. This may have been at a conference you attended where the elevator was out of service, or maybe a class you were taking relied on audio delivery of content. Describe what happened, how it impacted your (or someone else’s) ability to be involved and what could have been done to provide better accessibility in this case.
+  
+This exercise should take about 5 minutes.
+  
+
+Callout: Every Little Bit Counts   
+Looking at people who work with disability and accessibility, it’s easy to be overwhelmed by all the different ways we could make instruction more accessible.  Don’t panic.  Instead:
+  
+
+    Don’t do everything at once. We don’t ask learners in our workshops to adopt all our best practices or tools in one go, but instead to work things in gradually at whatever rate they can manage. Similarly, try to build in accessibility habits when preparing for workshops by adding something new each time.
+
+    Do the easy things first. There are plenty of ways to make workshops more accessible that are both easy and don’t create extra cognitive load for anyone: font choices, general text size, checking in advance that your room is accessible via an elevator or ramp, etc.
+
+  
+
+## Inclusivity
+
+Make a positive effort to be inclusive.
+
+Setting Expectations with the Code of Conduct
 
 
 

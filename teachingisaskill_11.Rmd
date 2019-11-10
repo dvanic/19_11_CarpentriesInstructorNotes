@@ -1,0 +1,76 @@
+#Teaching is a Skill 
+
+
+Questions:
+
+    How can I improve my teaching?
+
+Objectives:
+
+    Use peer-to-peer lesson practice to transform your instruction.
+
+    Give thoughtful and useful feedback.
+
+    Incorporate feedback into your teaching practices.
+
+
+
+So far, we’ve focused on how we can be effective instructors by understanding how people learn and how to create a positive classroom environment, covering two of our primary goals in helping you become a certified Carpentries instructor. Now our focus will shift to developing additional teaching skills that you can use in a Carpentries workshop setting, starting with the process of “lesson study”, or teaching observation and feedback.
+
+## Lesson Study: Applying a Growth Mindset to Teaching
+  
+
+Callout: Reading It Isn’t Enough  
+Several research studies (in 2007, 2012, and 2015) have shown that teachers don’t adopt instructional practices based on reports about the effectiveness of those practices. Social norms, institutional culture, and lack of time and support prevent many teachers from moving out of their accustomed teaching habits. Change in teaching doesn’t come about through reading about new teaching practices, but by seeing these practices in action, practicing them and getting feedback from other instructors.
+  
+
+### Exercise: Giving Feedback   
+We’ll start by observing some examples of teaching and providing some feedback.
+https://www.youtube.com/watch?v=-ApVt04rB4U
+Watch this example teaching video as a group and then give feedback on it. Put your feedback in the Etherpad. Organize your feedback along two axes: positive vs. negative and content (what was said) vs. presentation (how it was said). This exercise should take about 10 minutes.
+  
+
+### Exercise: Feedback on Yourself   
+The goal of this exercise is to practice giving and receiving feedback, so don’t be overly concerned about creating a perfectly polished presentation. We don’t give you a lot of time to prep and the teaching time is short, so embrace the challenge (and improvisation) of the exercise and see what you can learn by watching other people teach, thinking about how to give them feedback, and how it feels to get feedback on your own teaching.
+  
+Trainings where trainees are co-located:
+  
+
+    Split into groups of three.
+
+    Individually, spend 5 minutes preparing to teach a 90-second segment of the lesson episode you chose before the start of the training course. You will not be live coding; you can use a whiteboard or other visual aids if available (but this is not required!). We recommend using this 90 second teaching moment to introduce the topic of your lesson.
+
+    Get together with your group and have each person teach their segment to the group, while one person records this (video and audio) using a cell phone or some other handheld device. Keep a strict time limit of 90 seconds per person (one person should be responsible for the timekeeping).
+
+    After the first person finishes, rotate roles (they become the videographer, the audience becomes the instructor, the person who was recording becomes the audience) and then rotate roles again.
+
+    After everyone in the group of three has finished teaching, watch the videos as a group. Everyone gives feedback on all three videos, i.e., people give feedback on themselves as well as on others.
+
+    After everyone has given feedback on all of the videos, return to the main group and put everyone’s feedback about you into the Etherpad.
+
+  
+This exercise should take about 25 minutes.
+
+
+## Feedback Is Hard
+Image: Feedback Feelings https://carpentries.github.io/instructor-training/fig/deathbulge-jerk.jpg
+https://carpentries.github.io/instructor-training/fig/feedback-artwork.jpg
+
+### Exercise: Feedback on Feedback (Optional)   
+Watch this tutorial https://vimeo.com/139181120 (watch the first 4:49 mins). Give feedback following the 2x2 model. Put your feedback in the Etherpad.
+  
+This exercise and discussion should take about 10 minutes.
+  
+
+### Exercise: Using Feedback   
+Look back at the feedback you received on your teaching in an earlier exercise. How do you feel about this feedback? Is it fair and reasonable? Do you agree with it?
+  
+Identify at least one specific change you will make to your teaching based on this feedback. Describe your change in the Etherpad.
+  
+This exercise should take about 5 minutes.
+
+
+Hopefully you were able to identify at least one helpful comment in the feedback you received and are able to use it to start (or continue) the process of improving your teaching. Remember, teaching is a skill that is learned. If you notice yourself feeling hurt or threatened by the feedback you got, or rejecting it as unfair or wrong, pause and try to consider the feedback from a growth mindset - that through practice and feedback, your skills are going to improve. By strengthening your growth mindset with respect to teaching, you can transform getting feedback from an unpleasant experience to a richly rewarding one. You’ll have more opportunities to practice teaching and to get and give feedback tomorrow.
+  
+
+

@@ -7,47 +7,86 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ### Links to our pages
 
+- Etherpad: https://pad.carpentries.org/ttt-20191111
+- [Google Doc](https://docs.google.com/document/d/1SgSpqMpNM-kbHKJGVzgvD1IWhDJkQ7J_mkqi-USz5kg/edit#heading=h.vcjbmeh6wgzg)
+
 
 #### Session 1
 
 - Darya: [Welcome](01welcome.html)
+- Paula: [2. Building Skill With Practice](building_skills_02.html)
+- Darya: [3. Expertise and Instruction](expertise_03.html)
 
 #### Session 2
 
+- Paula: [5. Memory and Cognitive Load](memory_05.html)
+- Darya: [6. Building Skill With Feedback](feedback_06.html)
 
 #### Session 3
+- Paula: [8. Motivation and Demotivation](motivation_08.html)
+- Darya: [9. Mindset](mindset_09.html)
 
 #### Session 4  
+- Paula: [11. Teaching is a Skill](teachingisaskill_11.html)
+- Darya: [12. Wrap - Up and Homework for Tomorrow](wrapuphw_12.html)
 
 #### Session 5
+- Paula: [13. Welcome Back]()
+- Darya: [14. Live Coding is a Skill](livecodingskill_14.html)
+- Paula: [15. Preparing to Teach]()
 
 #### Session 6
-
+- Darya: [17. More Practice Live Coding](morelivecoding_17.html)
+- Paula: [18. Managing a Diverse Classroom]()
 
 #### Session 7
+- Darya: [20. Checkout Process](checkout_20.html)
+- Paula: [21. The Carpentries:How We Operate](https://carpentries.github.io/instructor-training/21-carpentries/index.html)
 
 #### Session 8  
-
+- Darya: [23. Workshop Introductions](wkspintros_23.html)
+- Paula: [24. Putting It Together]()
+- Darya: [25. Wrapping Up](wrapup_25.html)
+- Paula: [Post - training survey]()
 
 ***
 
 ### Links to original Carpentries content
 
-#### Session 1 
+#### Session 1
+
+- Darya: [Welcome](https://carpentries.github.io/instructor-training/01-welcome/index.html)
+- Paula: [2. Building Skill With Practice](https://carpentries.github.io/instructor-training/02-practice-learning/index.html)
+- Darya: [3. Expertise and Instruction](https://carpentries.github.io/instructor-training/03-expertise/index.html)
 
 #### Session 2
 
+- Paula: [5. Memory and Cognitive Load](https://carpentries.github.io/instructor-training/05-memory/index.html)
+- Darya: [6. Building Skill With Feedback](https://carpentries.github.io/instructor-training/06-feedback/index.html)
 
 #### Session 3
+- Paula: [8. Motivation and Demotivation](https://carpentries.github.io/instructor-training/08-motivation/index.html)
+- Darya: [9. Mindset](https://carpentries.github.io/instructor-training/09-mindset/index.html)
 
 #### Session 4  
+- Paula: [11. Teaching is a Skill](https://carpentries.github.io/instructor-training/11-practice-teaching/index.html)
+- Darya: [12. Wrap - Up and Homework for Tomorrow](https://carpentries.github.io/instructor-training/12-homework/index.html)
 
 #### Session 5
+- Paula: [13. Welcome Back](https://carpentries.github.io/instructor-training/13-second-welcome/index.html)
+- Darya: [14. Live Coding is a Skill](https://carpentries.github.io/instructor-training/14-live/index.html)
+- Paula: [15. Preparing to Teach](https://carpentries.github.io/instructor-training/15-lesson-study/index.html)
 
 #### Session 6
-
+- Darya: [17. More Practice Live Coding](https://carpentries.github.io/instructor-training/17-performance/index.html)
+- Paula: [18. Managing a Diverse Classroom](https://carpentries.github.io/instructor-training/18-management/index.html)
 
 #### Session 7
+- Darya: [20. Checkout Process](https://carpentries.github.io/instructor-training/20-checkout/index.html)
+- Paula: [21. The Carpentries:How We Operate](https://carpentries.github.io/instructor-training/21-carpentries/index.html)
 
-#### Session 8   
-
+#### Session 8  
+- Darya: [23. Workshop Introductions](https://carpentries.github.io/instructor-training/23-introductions/index.html)
+- Paula: [24. Putting It Together]()
+- Darya: [25. Wrapping Up]()
+- Paula: [Post - training survey]()
